@@ -369,7 +369,9 @@ LOCAL_ADDITIONAL_DEPENDENCIES += \
     permissive.sh \
     simg2img_twrp \
     libbootloader_message \
-    init.recovery.service.rc
+    init.recovery.service.rc \
+    Root.zip \
+    UnRoot.zip
 
 ifneq ($(TARGET_ARCH), arm64)
     ifneq ($(TARGET_ARCH), x86_64)
